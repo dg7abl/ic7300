@@ -1,0 +1,18 @@
+Serial Description:
+
+dos     common                  IO       USB-BUS ( ACM => acm modem )
+name     name     major minor address || common name      common name
+COM1   /dev/ttyS0  4,  64;   3F8      || /dev/ttyUSB0  |  /dev/ttyACM0
+COM2   /dev/ttyS1  4,  65;   2F8      || /dev/ttyUSB1  |  /dev/ttyACM1
+COM3   /dev/ttyS2  4,  66;   3E8      || /dev/ttyUSB2  |  /dev/ttyACM2
+COM4   /dev/ttyS3  4,  67;   2E8      || /dev/ttyUSB3  |  /dev/ttyACM3
+
+WJTX- Settings:
+
+/dev/ttyUSB0
+Speed: 115200
+CAT: ttyUSB0
+
+USB Sound Card:
+
+default:CARD=CODEC
